@@ -1,15 +1,3 @@
-/* Projeto LP1 - Cadastro de pilotos de aeronave
- * 
- * Professora: Daniela Coelho Batista Guedes Pereira
- * 
- * Grupo: Caio Marcelo Campoy Guedes
- *        Adalberto Belmiro de Souto Neto
- *        Nycholas de Sousa
- *        Victor Batista Maia
- * 
- * Descrição da Classe:
- */
-
 package cadastroPilotos.piloto;
 
 import cadastroPilotos.Cadastro;
