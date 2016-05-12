@@ -1,14 +1,3 @@
-/* Projeto LP1 - Cadastro de pilotos de aeronave
- * 
- * Professora: Daniela Coelho Batista Guedes Pereira
- * 
- * Grupo: Caio Marcelo Campoy Guedes
- *        Adalberto Belmiro de Souto Neto
- *        Nycholas de Sousa
- *        Victor Batista Maia
- * 
- * Descrição da Classe:
- */
 package cadastroPilotos;
 
 import aeronave.Aeronave;
@@ -16,10 +5,6 @@ import cadastroPilotos.piloto.*;
 import java.io.*;
 import java.util.LinkedList;
 
-/**
- *
- * @author Nycholas
- */
 public class Persistencia {
 
     private static LinkedList<Piloto> cadPiloto = new LinkedList<Piloto>();
@@ -180,7 +165,7 @@ public class Persistencia {
                 outputTipo.writeInt(cadTipoAeronave.size());
                 for (Aeronave tip : cadTipoAeronave) {
                     outputTipo.writeUTF(tip.getModelo());
-                    outputTipo.writeInt(tip.getCapacidadePassageiros());
+                    outputTipo.writeInt(0);
                     outputTipo.writeInt(tip.getHorasDeVoo());
                 }
 
